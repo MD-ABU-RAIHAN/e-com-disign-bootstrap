@@ -17,16 +17,69 @@
 <body>
     <header>
         <!-- place navbar here -->
-        
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="#">Navbar scroll</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav text-capitalize ms-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-        
+        <!-- Carousel Section Start Here  -->
+        <section class="bg-main bg-color caro-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <h1>We Collect High Wuality Leads</h1>
+                        <p>The quick brown fox has jumped over the lazy dog the
+                            quick brown fox has jumped over the lazy
+                            dog.</p>
+                        <div class="text-center">
+                            <button type="button" class="text-capitalize" data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="Tooltip Content">
+                                Button name
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <!-- place footer here -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- ToolTip JavaScript Start here  -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
 </body>
 
 </html>
