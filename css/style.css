@@ -82,17 +82,8 @@ button, a{
     border-radius: 2rem;
  } 
 
-
-
-
-
-
-
-
-
-
-
- .custom-shape-divider-bottom-1706121455 {
+ /* Sheap Bilder */
+ .custom-shape-divider-bottom-1709096075 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -102,14 +93,32 @@ button, a{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1706121455 svg {
+.custom-shape-divider-bottom-1709096075 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 172px;
+    height: 100px;
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1706121455 .shape-fill {
+.custom-shape-divider-bottom-1709096075 .shape-fill {
     fill: #FFFFFF;
+}
+
+/* Services Section Here */
+.services-section{
+    padding: 6rem 0 6rem 0;
+}
+.icon-go{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--secondary-color);
+    color: var(--bs-main-color);
+
+}
+.icon-go:hover{
+
+    background-color: var(--secondary-color);
+    color: var(--bs-main-color);
+
 }
