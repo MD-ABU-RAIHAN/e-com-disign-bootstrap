@@ -21,7 +21,7 @@ h1{
     font-size: 3.8rem;
 }
 h2{
-    line-height: 3rem;
+    line-height: 3.5rem;
     font-weight: 600;
     font-size: 3.4rem;
 }
@@ -117,8 +117,9 @@ button, a{
 
 }
 .icon-go:hover{
-
     background-color: var(--secondary-color);
     color: var(--bs-main-color);
-
+}
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
